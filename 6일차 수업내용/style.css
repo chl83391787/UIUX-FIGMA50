@@ -5,6 +5,7 @@ header {
 main {
     background:2px dashed #FFF;
     height: 2526px;
+    /* 패딩은 겉에 감싸고 있는 것이라고 보면 되고  */
     padding-left: 64px;
     padding-right: 64px;
     padding-top: 64px;
