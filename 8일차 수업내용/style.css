@@ -1,0 +1,58 @@
+header {
+    border: 1px solid #E3E3E3;
+    background: #FFF;
+}
+main {
+    background:2px dashed #ffffff;
+    height: 2526px;
+    /* 패딩은 겉에 감싸고 있는 것이라고 보면 되고  */
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.sct-01, .sct-02, .sct-03, .sct-04 {
+    background-color: rgb(201, 201, 201);
+    border-bottom: 1px solid #000;
+}
+.sct-01 {
+    display: flex; gap: 20px;
+}
+.sct01-left {
+    width: 1100px; height: 610px;
+    background-color: rgb(216, 233, 255);
+}
+.sct01-right {
+    background-color: rgb(153, 197, 255);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column; 
+    gap: 20px #0039a3;
+}
+.sct01-rbox01 {
+    background-color: #4567ff;
+    flex-grow: 1;
+}
+.sct01-rbox02 {
+    background-color: rgb(91, 149, 255);
+    flex-grow: 1;
+}
+.sct-03 {
+    border: 1px solid #ff0000;
+    display: flex;
+    flex-wrap: wrap;
+    /* 줄바꿈 */
+    justify-content: space-between;
+    /* height: 600px;
+    align-content: space-between; */
+    row-gap: 20px;
+}
+.sct03-li {
+    width: 427px; height: 246px;
+    flex-shrink: 1;
+    border: 1px solid orange;
+}
+footer {
+    background:2px solid #FFF;
+    height: 68px;
+}
