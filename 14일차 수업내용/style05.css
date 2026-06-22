@@ -1,0 +1,12 @@
+/* 5단계 figma의 autoLayout 기능관 가장 흡사한 코드 */
+/* position 속성 합습 후 다시 돌와서 진행예정, 아 있구나~기능이 더 정도로만 이해하면 된다! */
+.img-box04 {
+  background-color: red;
+  /* overflow: hidden;을 적용한 태그의 크기를 넘어서면 아래 태그들은 전부 자른다.*/
+  width: 500px; height: 500px;
+  position: relative;
+}
+.img-box04> img {
+  position: absolute;
+  right: 0;
+}

@@ -1,0 +1,9 @@
+.img-box01 {
+  background-color: red;
+}
+/* 2단계: 이미지와 너비와 높이 중 하나의 속성만 커스텀하기
+종횡비 활성화 */
+.img-box01>img {
+  width: 500px;
+  /*width: x px;=크기 지정*/
+}

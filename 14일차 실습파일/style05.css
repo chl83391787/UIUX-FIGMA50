@@ -1,0 +1,9 @@
+.img-box04 {
+  background-color: blue;
+  /* overflow: hidden; */
+  position: relative;
+}
+.img-box04>img {
+  position: absolute;
+  top: 0;
+}
