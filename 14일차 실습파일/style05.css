@@ -1,6 +1,7 @@
 .img-box04 {
   background-color: blue;
   /* overflow: hidden; */
+  width: 500px;height: 500px;
   position: relative;
 }
 .img-box04>img {
