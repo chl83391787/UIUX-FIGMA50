@@ -9,22 +9,23 @@ header {
 
 }
 .top-bar {
-  border: 1px solid red;
+  border: 1px solid black;
   padding: 16px 20px;
   display: flex;
   justify-content: space-between;
 }
 .menu01 {
-  border: 1px solid yellow;
+  border: 1px solid black;
+  display: flex;
   width: 388px;
-  justify-self:  ;
+  justify-content: flex-start;
 }
 .logo-box {
-  border: 1px solid yellow;
+  border: 1px solid black;
 }
 .user-box {
   width: 388px;
   display: flex;
   justify-content: end;
-  border: 1px solid yellow;
+  border: 1px solid black;
 }
