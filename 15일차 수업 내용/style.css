@@ -1,0 +1,30 @@
+header {
+  border: 1px solid black;
+}
+.popup {
+  background-color: aliceblue;
+  background: #E8E8E8;
+  text-align: center;
+  padding: 20px;
+
+}
+.top-bar {
+  border: 1px solid red;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu01 {
+  border: 1px solid yellow;
+  width: 388px;
+  justify-self:  ;
+}
+.logo-box {
+  border: 1px solid yellow;
+}
+.user-box {
+  width: 388px;
+  display: flex;
+  justify-content: end;
+  border: 1px solid yellow;
+}
