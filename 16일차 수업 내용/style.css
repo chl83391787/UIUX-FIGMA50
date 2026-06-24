@@ -1,0 +1,37 @@
+header {
+  border: 1px solid black;
+}
+.popup {
+  background-color: aliceblue;
+  background: #E8E8E8;
+  text-align: center;
+  padding: 20px;
+
+}
+.top-bar {
+  border: 1px solid black;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu01 {
+  border: 1px solid black;
+  display: flex;
+  width: 388px;
+  justify-content: flex-start;
+}
+.menu01-ul {
+  display: flex;
+}
+.logo-box {
+  border: 1px solid black;
+}
+.user-box {
+  width: 388px;
+  display: flex;
+  justify-content: end;
+  border: 1px solid black;
+}
+.user-box-ul {
+  display: flex;
+}
