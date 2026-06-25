@@ -1,13 +1,10 @@
-header {
-  border: 1px solid black;
-}
+
 .popup::before{
   /* 아무것도 작성하지 않아도 comtent:"";코드필수 */
   content: "X";
-  border: 1px solid red;
+  width: 50px;
 }
 .popup {
-  background-color: aliceblue;
   background: #E8E8E8;
   /* text-align: center; */
   padding: 20px;
@@ -22,16 +19,14 @@ header {
   content: "X";
   font-size: 20px;
   cursor: pointer;
-  border: 1px solid red; text-align: right;
 }
 .top-bar {
-  border: 1px solid rgb(255, 0, 0);
   padding: 16px 20px;
   display: flex;
   justify-content: space-between;
 }
 .menu01 {
-  border: 1px solid rgb(255, 162, 96);
+
   display: flex;
   width: 388px;
   justify-content: flex-start;
@@ -40,8 +35,6 @@ header {
   display: flex; gap: 16px;
   height: 100%;
   align-items: center;
-  background-color: green;
-
 }
 .m01-item {
   color: #000;
@@ -49,11 +42,9 @@ header {
   line-height: 15px;
 }
 .logo-box {
-  border: 1px solid rgb(255, 117, 26);
   display: flex;
 }
 .user-box {
-  border: 1px solid rgb(254, 109, 31);
   width: 388px;
   display: flex;
   justify-content: flex-end;
@@ -62,7 +53,6 @@ header {
 .user-box-ul {
   display: flex; gap: 16px;
   align-items: center;
-  background-color: blue;
   /* height: auto; 100% */
 }
 .user-item {
