@@ -1,0 +1,28 @@
+body { margin: 0; padding: 0;}
+ul,ul>li { margin: 0; list-style: none; padding: 0;}
+
+p {margin: 0;}
+h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+  font-size: inherit;
+  margin: 0;
+
+}
+a {
+  /* a태그는 display: inline;을 가지고 있음. 그래서 display: block;를 넣는다. */
+  color: inherit;
+  text-decoration: none;
+  background-color: pink;
+  display: block;
+
+}
+button {
+  background-color: transparent;
+  padding: auto;
+  border: none; outline: none;
+}
+img {
+   /* img태그는 display: inline;을 가지고 있음. 그래서 display: block;를 넣는다. */
+  background-color: red;
+  display: block;
+}
