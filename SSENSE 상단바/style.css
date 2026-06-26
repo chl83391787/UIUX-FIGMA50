@@ -1,0 +1,19 @@
+header { border: 1px solid black;}
+.popup {
+  background: #E8E8E8;
+  padding: 20px;
+  display: flex;
+justify-content: space-around;}
+
+
+.top-bar{ border: 1px solid beige;
+  display: flex;
+  justify-content: space-around;
+}
+.menu01 {border: 1px solid black;}
+.menu01-ul {display: flex; gap: 16px;}
+.m01-item{
+  /* 넣을게 폰트밖에 없음. */
+}
+.iogo-img {border: 1px solid black;}
+.user-menu {border: 1px solid black;}
