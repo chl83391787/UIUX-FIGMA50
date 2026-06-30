@@ -1,0 +1,35 @@
+body {
+  margin: 0; padding: 0;
+}
+header{
+  border: 1px solid black;
+}
+.top-bar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+  position: relative;
+}
+.logo-box{
+  border: 1px solid rebeccapurple;
+}
+.menu01{
+  border: 1px solid red;
+  display: flex;
+}
+.menu01-ul{
+  display: flex;
+  gap: 16px;
+}
+.menu02 {
+
+}
+.user-box {
+  border: 1px solid red;
+  top: 100%;
+}
+.user-box-ul {
+display: flex;
+gap: 16px;
+}
