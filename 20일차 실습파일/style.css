@@ -13,13 +13,13 @@ border: 1px solid red;
   justify-content: space-between;
   align-items: center;
 }
-.menu01 {
+.menu01 ul {
   display: flex;
   justify-content: flex-start;
   gap: 16px;
 
 }
-.user-box{
+.user-box ul{
   display: flex;
   justify-content: flex-end;
   gap: 16px;
