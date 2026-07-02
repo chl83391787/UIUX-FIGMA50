@@ -1,0 +1,29 @@
+header {
+border: 1px solid red;
+}
+.top-bar {
+  padding:16px 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  transition: 0.5s;
+}
+.top-bar:hover {
+  padding-top: calc(16px + 8);
+  padding-bottom: calc(16px + 8);
+}
+.menu01-ul{
+  display: flex;
+justify-content: flex-start;
+}
+.m01-item{
+  display: flex;
+}
+.user-box{
+  display: flex;
+  justify-content: space-between;
+}
+.user-box-ul{
+  display: flex;
+justify-content: flex-end;
+}
