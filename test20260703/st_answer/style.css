@@ -1,9 +1,9 @@
-header {
+/* header {
 border: 1px solid red;
-}
+} */
 /* 상단바 */
 .top-bar {
-border: 1px solid orange;
+/* border: 1px solid orange; */
 background: linear-gradient(90deg,#f7f7f7 0%, #9fc5df 62%, #82e6ed 100% );
 display: flex;
 padding-left: 100px; padding-right: 100px;
@@ -22,9 +22,9 @@ align-items: center;
 .logo-box img{
   width: 220px;
 }
-.menu01{
-/* border: 1px solid green; */
-}
+/* .menu01{
+border: 1px solid green;
+} */
 .menu01>ul{
   display: flex; gap: 50px;
   height: 100%; align-items: center;
@@ -59,8 +59,8 @@ font-weight: 700;
 }
 .user-item02:hover{
   border: bisque;
-  border: 1px solid sandybrown;
-  color: sandybrown;
+  border: 1px solid rgb(0, 81, 255);
+  color: rgb(0, 81, 255);
 }
 .user-item02 a{
 font-size: 15px;
